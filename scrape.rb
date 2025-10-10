@@ -35,7 +35,7 @@ def parse_standings(html)
 
     next unless cols.size >= 10
 
-    team_name = cols[1]
+    team_name = cols[1].split("\n").first.strip
     if SOUTH_DIVISION_TEAMS.include?(team_name)
       puts "✅ Matched South Division team: #{team_name}"
       teams << {
