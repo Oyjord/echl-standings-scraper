@@ -1,0 +1,34 @@
+# .github/workflows/scrape.yml
+name: Scrape Swamp Rabbits Standings
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Every hour
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+
+      - name: Install Nokogiri
+        run: gem install nokogiri
+
+      - name: Run scraper
+        run: ruby scrape.rb
+
+      - name: Commit and push updated standings
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add standings.json
+          git commit -m "Update South Division standings"
+          git push
