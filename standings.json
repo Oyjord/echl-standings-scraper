@@ -10,7 +10,7 @@
       "sol": 0,
       "pts": 2,
       "gf": 1,
-      "ga": 5
+      "ga": 7
     },
     {
       "team": "Jacksonville Icemen",
@@ -21,17 +21,6 @@
       "sol": 0,
       "pts": 2,
       "gf": 1,
-      "ga": 3
-    },
-    {
-      "team": "Orlando Solar Bears",
-      "gp": 1,
-      "w": 0,
-      "l": 0,
-      "otl": 1,
-      "sol": 0,
-      "pts": 1,
-      "gf": 0,
       "ga": 4
     },
     {
@@ -44,6 +33,17 @@
       "pts": 1,
       "gf": 0,
       "ga": 2
+    },
+    {
+      "team": "Orlando Solar Bears",
+      "gp": 1,
+      "w": 0,
+      "l": 0,
+      "otl": 1,
+      "sol": 0,
+      "pts": 1,
+      "gf": 0,
+      "ga": 5
     },
     {
       "team": "South Carolina Stingrays",
