@@ -24,6 +24,17 @@
       "ga": 7
     },
     {
+      "team": "Greenville Swamp Rabbits",
+      "gp": 1,
+      "w": 1,
+      "l": 0,
+      "otl": 0,
+      "sol": 0,
+      "pts": 2,
+      "gf": 1,
+      "ga": 3
+    },
+    {
       "team": "Jacksonville Icemen",
       "gp": 2,
       "w": 1,
@@ -55,17 +66,6 @@
       "pts": 0,
       "gf": 0,
       "ga": 0
-    },
-    {
-      "team": "Greenville Swamp Rabbits",
-      "gp": 0,
-      "w": 0,
-      "l": 0,
-      "otl": 0,
-      "sol": 0,
-      "pts": 0,
-      "gf": 0,
-      "ga": 2
     },
     {
       "team": "Atlanta Gladiators",
