@@ -46,17 +46,6 @@
       "ga": 6
     },
     {
-      "team": "Atlanta Gladiators",
-      "gp": 0,
-      "w": 0,
-      "l": 0,
-      "otl": 0,
-      "sol": 0,
-      "pts": 0,
-      "gf": 0,
-      "ga": 0
-    },
-    {
       "team": "South Carolina Stingrays",
       "gp": 0,
       "w": 0,
@@ -69,6 +58,17 @@
     },
     {
       "team": "Greenville Swamp Rabbits",
+      "gp": 0,
+      "w": 0,
+      "l": 0,
+      "otl": 0,
+      "sol": 0,
+      "pts": 0,
+      "gf": 0,
+      "ga": 2
+    },
+    {
+      "team": "Atlanta Gladiators",
       "gp": 0,
       "w": 0,
       "l": 0,
