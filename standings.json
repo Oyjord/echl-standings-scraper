@@ -2,6 +2,17 @@
   "division": "South",
   "teams": [
     {
+      "team": "Florida Everblades",
+      "gp": 1,
+      "w": 1,
+      "l": 0,
+      "otl": 0,
+      "sol": 0,
+      "pts": 2,
+      "gf": 1,
+      "ga": 4
+    },
+    {
       "team": "Savannah Ghost Pirates",
       "gp": 0,
       "w": 0,
@@ -10,7 +21,7 @@
       "sol": 0,
       "pts": 0,
       "gf": 0,
-      "ga": 0
+      "ga": 3
     },
     {
       "team": "Jacksonville Icemen",
@@ -24,10 +35,10 @@
       "ga": 0
     },
     {
-      "team": "Orlando Solar Bears",
-      "gp": 0,
+      "team": "Greenville Swamp Rabbits",
+      "gp": 1,
       "w": 0,
-      "l": 0,
+      "l": 1,
       "otl": 0,
       "sol": 0,
       "pts": 0,
@@ -35,10 +46,10 @@
       "ga": 1
     },
     {
-      "team": "Greenville Swamp Rabbits",
-      "gp": 0,
+      "team": "Orlando Solar Bears",
+      "gp": 1,
       "w": 0,
-      "l": 0,
+      "l": 1,
       "otl": 0,
       "sol": 0,
       "pts": 0,
@@ -58,17 +69,6 @@
     },
     {
       "team": "Atlanta Gladiators",
-      "gp": 0,
-      "w": 0,
-      "l": 0,
-      "otl": 0,
-      "sol": 0,
-      "pts": 0,
-      "gf": 0,
-      "ga": 0
-    },
-    {
-      "team": "Florida Everblades",
       "gp": 0,
       "w": 0,
       "l": 0,
