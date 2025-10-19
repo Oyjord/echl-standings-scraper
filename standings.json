@@ -10,7 +10,7 @@
       "sol": 0,
       "pts": 2,
       "gf": 1,
-      "ga": 5
+      "ga": 6
     },
     {
       "team": "Florida Everblades",
@@ -43,7 +43,7 @@
       "sol": 0,
       "pts": 2,
       "gf": 1,
-      "ga": 3
+      "ga": 5
     },
     {
       "team": "Atlanta Gladiators",
@@ -54,7 +54,7 @@
       "sol": 0,
       "pts": 2,
       "gf": 1,
-      "ga": 5
+      "ga": 7
     },
     {
       "team": "Greenville Swamp Rabbits",
@@ -65,7 +65,7 @@
       "sol": 0,
       "pts": 2,
       "gf": 0,
-      "ga": 7
+      "ga": 9
     },
     {
       "team": "Savannah Ghost Pirates",
