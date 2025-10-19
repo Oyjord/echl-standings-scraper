@@ -2,17 +2,6 @@
   "division": "South",
   "teams": [
     {
-      "team": "Florida Everblades",
-      "gp": 2,
-      "w": 1,
-      "l": 1,
-      "otl": 0,
-      "sol": 0,
-      "pts": 2,
-      "gf": 0,
-      "ga": 5
-    },
-    {
       "team": "South Carolina Stingrays",
       "gp": 1,
       "w": 1,
@@ -22,6 +11,17 @@
       "pts": 2,
       "gf": 1,
       "ga": 2
+    },
+    {
+      "team": "Florida Everblades",
+      "gp": 2,
+      "w": 1,
+      "l": 1,
+      "otl": 0,
+      "sol": 0,
+      "pts": 2,
+      "gf": 0,
+      "ga": 5
     },
     {
       "team": "Orlando Solar Bears",
