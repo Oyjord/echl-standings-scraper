@@ -3,7 +3,7 @@ name: Scrape Swamp Rabbits Standings
 
 on:
   schedule:
-    - cron: '30 * * * *'  # Every hour
+    - cron: '0 * * * *'  # every hour change 0 to 30 for every 30 mins
   workflow_dispatch:
 
 jobs:
