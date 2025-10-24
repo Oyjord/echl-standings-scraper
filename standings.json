@@ -2,6 +2,17 @@
   "division": "South",
   "teams": [
     {
+      "team": "Atlanta Gladiators",
+      "gp": 3,
+      "w": 3,
+      "l": 0,
+      "otl": 0,
+      "sol": 0,
+      "pts": 6,
+      "gf": 1,
+      "ga": 12
+    },
+    {
       "team": "Florida Everblades",
       "gp": 3,
       "w": 2,
@@ -14,13 +25,13 @@
     },
     {
       "team": "South Carolina Stingrays",
-      "gp": 2,
+      "gp": 3,
       "w": 2,
-      "l": 0,
+      "l": 1,
       "otl": 0,
       "sol": 0,
       "pts": 4,
-      "gf": 1,
+      "gf": 0,
       "ga": 10
     },
     {
@@ -35,26 +46,26 @@
       "ga": 5
     },
     {
-      "team": "Atlanta Gladiators",
-      "gp": 2,
-      "w": 2,
+      "team": "Savannah Ghost Pirates",
+      "gp": 3,
+      "w": 1,
       "l": 0,
-      "otl": 0,
-      "sol": 0,
+      "otl": 1,
+      "sol": 1,
       "pts": 4,
-      "gf": 1,
-      "ga": 12
+      "gf": 0,
+      "ga": 16
     },
     {
       "team": "Orlando Solar Bears",
-      "gp": 3,
+      "gp": 4,
       "w": 1,
-      "l": 2,
+      "l": 3,
       "otl": 0,
       "sol": 0,
       "pts": 2,
       "gf": 0,
-      "ga": 7
+      "ga": 8
     },
     {
       "team": "Greenville Swamp Rabbits",
@@ -66,17 +77,6 @@
       "pts": 2,
       "gf": 0,
       "ga": 9
-    },
-    {
-      "team": "Savannah Ghost Pirates",
-      "gp": 2,
-      "w": 0,
-      "l": 0,
-      "otl": 1,
-      "sol": 1,
-      "pts": 2,
-      "gf": 0,
-      "ga": 15
     }
   ]
 }
