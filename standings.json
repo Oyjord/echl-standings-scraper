@@ -43,7 +43,7 @@
       "sol": 0,
       "pts": 4,
       "gf": 0,
-      "ga": 10
+      "ga": 12
     },
     {
       "team": "Savannah Ghost Pirates",
@@ -54,7 +54,7 @@
       "sol": 1,
       "pts": 4,
       "gf": 0,
-      "ga": 18
+      "ga": 19
     },
     {
       "team": "Orlando Solar Bears",
@@ -76,7 +76,7 @@
       "sol": 0,
       "pts": 2,
       "gf": 0,
-      "ga": 11
+      "ga": 12
     }
   ]
 }
