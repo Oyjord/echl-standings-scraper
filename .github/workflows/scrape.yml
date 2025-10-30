@@ -2,8 +2,11 @@
 name: Scrape Swamp Rabbits Standings
 
 on:
+  # Covers 10 AM to 9:59 PM PT (which is 17:00–04:59 UTC)
   schedule:
-    - cron: '*/60 10-21 * * *'
+    - cron: '0 17-23 * * *'  # 10 AM to 4 PM PT
+    - cron: '0 0-4 * * *'    # 5 PM to 9:59 PM PT
+
     
   workflow_dispatch:
 
