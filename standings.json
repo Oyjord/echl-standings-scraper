@@ -2,6 +2,17 @@
   "division": "South",
   "teams": [
     {
+      "team": "Jacksonville Icemen",
+      "gp": 7,
+      "w": 5,
+      "l": 2,
+      "otl": 0,
+      "sol": 0,
+      "pts": 10,
+      "gf": 0,
+      "ga": 20
+    },
+    {
       "team": "South Carolina Stingrays",
       "gp": 5,
       "w": 4,
@@ -22,17 +33,6 @@
       "pts": 8,
       "gf": 1,
       "ga": 14
-    },
-    {
-      "team": "Jacksonville Icemen",
-      "gp": 6,
-      "w": 4,
-      "l": 2,
-      "otl": 0,
-      "sol": 0,
-      "pts": 8,
-      "gf": 0,
-      "ga": 20
     },
     {
       "team": "Florida Everblades",
