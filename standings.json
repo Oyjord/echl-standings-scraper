@@ -3,13 +3,13 @@
   "teams": [
     {
       "team": "Atlanta Gladiators",
-      "gp": 6,
+      "gp": 7,
       "w": 6,
-      "l": 0,
+      "l": 1,
       "otl": 0,
       "sol": 0,
       "pts": 12,
-      "gf": 1,
+      "gf": 0,
       "ga": 21
     },
     {
@@ -46,6 +46,17 @@
       "ga": 17
     },
     {
+      "team": "Greenville Swamp Rabbits",
+      "gp": 8,
+      "w": 4,
+      "l": 4,
+      "otl": 0,
+      "sol": 0,
+      "pts": 8,
+      "gf": 0,
+      "ga": 22
+    },
+    {
       "team": "Savannah Ghost Pirates",
       "gp": 5,
       "w": 2,
@@ -55,17 +66,6 @@
       "pts": 6,
       "gf": 0,
       "ga": 21
-    },
-    {
-      "team": "Greenville Swamp Rabbits",
-      "gp": 7,
-      "w": 3,
-      "l": 4,
-      "otl": 0,
-      "sol": 0,
-      "pts": 6,
-      "gf": 0,
-      "ga": 22
     },
     {
       "team": "Orlando Solar Bears",
