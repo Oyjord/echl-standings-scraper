@@ -25,14 +25,14 @@
     },
     {
       "team": "Jacksonville Icemen",
-      "gp": 7,
+      "gp": 8,
       "w": 5,
-      "l": 2,
+      "l": 3,
       "otl": 0,
       "sol": 0,
       "pts": 10,
       "gf": 0,
-      "ga": 20
+      "ga": 21
     },
     {
       "team": "Florida Everblades",
@@ -46,6 +46,17 @@
       "ga": 17
     },
     {
+      "team": "Savannah Ghost Pirates",
+      "gp": 6,
+      "w": 3,
+      "l": 1,
+      "otl": 1,
+      "sol": 1,
+      "pts": 8,
+      "gf": 0,
+      "ga": 23
+    },
+    {
       "team": "Greenville Swamp Rabbits",
       "gp": 8,
       "w": 4,
@@ -53,17 +64,6 @@
       "otl": 0,
       "sol": 0,
       "pts": 8,
-      "gf": 0,
-      "ga": 22
-    },
-    {
-      "team": "Savannah Ghost Pirates",
-      "gp": 5,
-      "w": 2,
-      "l": 1,
-      "otl": 1,
-      "sol": 1,
-      "pts": 6,
       "gf": 0,
       "ga": 22
     },
