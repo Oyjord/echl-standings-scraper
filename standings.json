@@ -14,23 +14,23 @@
     },
     {
       "team": "South Carolina Stingrays",
-      "gp": 9,
-      "w": 6,
+      "gp": 10,
+      "w": 7,
       "l": 3,
       "otl": 0,
       "sol": 0,
-      "pts": 12,
+      "pts": 14,
       "gf": 0,
-      "ga": 29
+      "ga": 30
     },
     {
       "team": "Florida Everblades",
-      "gp": 10,
+      "gp": 9,
       "w": 5,
       "l": 4,
       "otl": 0,
-      "sol": 1,
-      "pts": 11,
+      "sol": 0,
+      "pts": 10,
       "gf": 0,
       "ga": 25
     },
@@ -69,14 +69,14 @@
     },
     {
       "team": "Orlando Solar Bears",
-      "gp": 8,
+      "gp": 9,
       "w": 1,
-      "l": 7,
+      "l": 8,
       "otl": 0,
       "sol": 0,
       "pts": 2,
       "gf": 0,
-      "ga": 18
+      "ga": 19
     }
   ]
 }
