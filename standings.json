@@ -36,12 +36,12 @@
     },
     {
       "team": "Jacksonville Icemen",
-      "gp": 10,
-      "w": 5,
+      "gp": 11,
+      "w": 6,
       "l": 5,
       "otl": 0,
       "sol": 0,
-      "pts": 10,
+      "pts": 12,
       "gf": 0,
       "ga": 28
     },
@@ -69,14 +69,14 @@
     },
     {
       "team": "Orlando Solar Bears",
-      "gp": 9,
+      "gp": 10,
       "w": 1,
-      "l": 8,
+      "l": 9,
       "otl": 0,
       "sol": 0,
       "pts": 2,
       "gf": 0,
-      "ga": 21
+      "ga": 22
     }
   ]
 }
