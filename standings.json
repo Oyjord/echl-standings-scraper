@@ -10,7 +10,7 @@
       "sol": 0,
       "pts": 16,
       "gf": 0,
-      "ga": 31
+      "ga": 33
     },
     {
       "team": "Atlanta Gladiators",
@@ -25,9 +25,9 @@
     },
     {
       "team": "Florida Everblades",
-      "gp": 12,
+      "gp": 13,
       "w": 7,
-      "l": 4,
+      "l": 5,
       "otl": 0,
       "sol": 1,
       "pts": 15,
@@ -46,6 +46,17 @@
       "ga": 28
     },
     {
+      "team": "Greenville Swamp Rabbits",
+      "gp": 12,
+      "w": 6,
+      "l": 6,
+      "otl": 0,
+      "sol": 0,
+      "pts": 12,
+      "gf": 0,
+      "ga": 29
+    },
+    {
       "team": "Savannah Ghost Pirates",
       "gp": 8,
       "w": 4,
@@ -53,17 +64,6 @@
       "otl": 2,
       "sol": 1,
       "pts": 11,
-      "gf": 0,
-      "ga": 29
-    },
-    {
-      "team": "Greenville Swamp Rabbits",
-      "gp": 11,
-      "w": 5,
-      "l": 6,
-      "otl": 0,
-      "sol": 0,
-      "pts": 10,
       "gf": 0,
       "ga": 29
     },
@@ -76,7 +76,7 @@
       "sol": 0,
       "pts": 2,
       "gf": 0,
-      "ga": 22
+      "ga": 23
     }
   ]
 }
