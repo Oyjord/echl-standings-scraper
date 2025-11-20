@@ -3,12 +3,23 @@
   "teams": [
     {
       "team": "South Carolina Stingrays",
-      "gp": 12,
+      "gp": 13,
       "w": 9,
-      "l": 3,
+      "l": 4,
       "otl": 0,
       "sol": 0,
       "pts": 18,
+      "gf": 0,
+      "ga": 37
+    },
+    {
+      "team": "Florida Everblades",
+      "gp": 14,
+      "w": 8,
+      "l": 5,
+      "otl": 0,
+      "sol": 1,
+      "pts": 17,
       "gf": 0,
       "ga": 37
     },
@@ -22,17 +33,6 @@
       "pts": 16,
       "gf": 0,
       "ga": 29
-    },
-    {
-      "team": "Florida Everblades",
-      "gp": 13,
-      "w": 7,
-      "l": 5,
-      "otl": 0,
-      "sol": 1,
-      "pts": 15,
-      "gf": 0,
-      "ga": 37
     },
     {
       "team": "Jacksonville Icemen",
