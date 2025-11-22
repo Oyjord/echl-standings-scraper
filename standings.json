@@ -35,6 +35,17 @@
       "ga": 29
     },
     {
+      "team": "Savannah Ghost Pirates",
+      "gp": 11,
+      "w": 6,
+      "l": 2,
+      "otl": 2,
+      "sol": 1,
+      "pts": 15,
+      "gf": 0,
+      "ga": 43
+    },
+    {
       "team": "Jacksonville Icemen",
       "gp": 13,
       "w": 7,
@@ -55,17 +66,6 @@
       "pts": 14,
       "gf": 0,
       "ga": 32
-    },
-    {
-      "team": "Savannah Ghost Pirates",
-      "gp": 10,
-      "w": 5,
-      "l": 2,
-      "otl": 2,
-      "sol": 1,
-      "pts": 13,
-      "gf": 0,
-      "ga": 38
     },
     {
       "team": "Orlando Solar Bears",
