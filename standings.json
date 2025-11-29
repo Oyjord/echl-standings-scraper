@@ -10,7 +10,7 @@
       "sol": 1,
       "pts": 22,
       "gf": 0,
-      "ga": 48
+      "ga": 51
     },
     {
       "team": "South Carolina Stingrays",
@@ -21,7 +21,7 @@
       "sol": 0,
       "pts": 20,
       "gf": 0,
-      "ga": 46
+      "ga": 50
     },
     {
       "team": "Atlanta Gladiators",
@@ -43,7 +43,7 @@
       "sol": 0,
       "pts": 18,
       "gf": 0,
-      "ga": 41
+      "ga": 43
     },
     {
       "team": "Greenville Swamp Rabbits",
@@ -65,7 +65,7 @@
       "sol": 1,
       "pts": 15,
       "gf": 0,
-      "ga": 47
+      "ga": 49
     },
     {
       "team": "Orlando Solar Bears",
@@ -76,7 +76,7 @@
       "sol": 0,
       "pts": 2,
       "gf": 0,
-      "ga": 33
+      "ga": 34
     }
   ]
 }
