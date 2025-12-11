@@ -13,6 +13,17 @@
       "ga": 77
     },
     {
+      "team": "Atlanta Gladiators",
+      "gp": 20,
+      "w": 15,
+      "l": 5,
+      "otl": 0,
+      "sol": 0,
+      "pts": 30,
+      "gf": 0,
+      "ga": 65
+    },
+    {
       "team": "South Carolina Stingrays",
       "gp": 23,
       "w": 14,
@@ -22,17 +33,6 @@
       "pts": 29,
       "gf": 0,
       "ga": 71
-    },
-    {
-      "team": "Atlanta Gladiators",
-      "gp": 19,
-      "w": 14,
-      "l": 5,
-      "otl": 0,
-      "sol": 0,
-      "pts": 28,
-      "gf": 0,
-      "ga": 64
     },
     {
       "team": "Jacksonville Icemen",
