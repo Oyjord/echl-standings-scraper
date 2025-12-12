@@ -36,14 +36,14 @@
     },
     {
       "team": "Jacksonville Icemen",
-      "gp": 21,
-      "w": 10,
+      "gp": 22,
+      "w": 11,
       "l": 11,
       "otl": 0,
       "sol": 0,
-      "pts": 20,
+      "pts": 22,
       "gf": 0,
-      "ga": 57
+      "ga": 59
     },
     {
       "team": "Greenville Swamp Rabbits",
@@ -58,9 +58,9 @@
     },
     {
       "team": "Savannah Ghost Pirates",
-      "gp": 18,
+      "gp": 19,
       "w": 7,
-      "l": 8,
+      "l": 9,
       "otl": 2,
       "sol": 1,
       "pts": 17,
