@@ -43,7 +43,7 @@
       "sol": 0,
       "pts": 24,
       "gf": 0,
-      "ga": 66
+      "ga": 67
     },
     {
       "team": "Greenville Swamp Rabbits",
@@ -54,7 +54,7 @@
       "sol": 0,
       "pts": 23,
       "gf": 0,
-      "ga": 60
+      "ga": 62
     },
     {
       "team": "Savannah Ghost Pirates",
@@ -65,7 +65,7 @@
       "sol": 1,
       "pts": 19,
       "gf": 0,
-      "ga": 67
+      "ga": 68
     },
     {
       "team": "Orlando Solar Bears",
@@ -76,7 +76,7 @@
       "sol": 0,
       "pts": 16,
       "gf": 0,
-      "ga": 52
+      "ga": 53
     }
   ]
 }
