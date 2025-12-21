@@ -10,7 +10,7 @@
       "sol": 1,
       "pts": 36,
       "gf": 0,
-      "ga": 86
+      "ga": 87
     },
     {
       "team": "Atlanta Gladiators",
@@ -25,9 +25,9 @@
     },
     {
       "team": "South Carolina Stingrays",
-      "gp": 27,
+      "gp": 28,
       "w": 17,
-      "l": 9,
+      "l": 10,
       "otl": 1,
       "sol": 0,
       "pts": 35,
@@ -69,12 +69,12 @@
     },
     {
       "team": "Orlando Solar Bears",
-      "gp": 24,
-      "w": 7,
+      "gp": 25,
+      "w": 8,
       "l": 14,
       "otl": 2,
       "sol": 1,
-      "pts": 17,
+      "pts": 19,
       "gf": 0,
       "ga": 59
     }
