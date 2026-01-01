@@ -25,14 +25,14 @@
     },
     {
       "team": "South Carolina Stingrays",
-      "gp": 29,
-      "w": 17,
+      "gp": 30,
+      "w": 18,
       "l": 11,
       "otl": 1,
       "sol": 0,
-      "pts": 35,
+      "pts": 37,
       "gf": 0,
-      "ga": 82
+      "ga": 87
     },
     {
       "team": "Jacksonville Icemen",
@@ -47,14 +47,14 @@
     },
     {
       "team": "Greenville Swamp Rabbits",
-      "gp": 25,
+      "gp": 26,
       "w": 11,
-      "l": 10,
+      "l": 11,
       "otl": 4,
       "sol": 0,
       "pts": 26,
       "gf": 0,
-      "ga": 66
+      "ga": 69
     },
     {
       "team": "Orlando Solar Bears",
