@@ -36,14 +36,14 @@
     },
     {
       "team": "Greenville Swamp Rabbits",
-      "gp": 28,
-      "w": 12,
+      "gp": 29,
+      "w": 13,
       "l": 12,
       "otl": 4,
       "sol": 0,
-      "pts": 28,
+      "pts": 30,
       "gf": 0,
-      "ga": 79
+      "ga": 82
     },
     {
       "team": "Savannah Ghost Pirates",
@@ -69,14 +69,14 @@
     },
     {
       "team": "Orlando Solar Bears",
-      "gp": 29,
+      "gp": 30,
       "w": 11,
-      "l": 15,
+      "l": 16,
       "otl": 2,
       "sol": 1,
       "pts": 25,
       "gf": 0,
-      "ga": 75
+      "ga": 76
     }
   ]
 }
