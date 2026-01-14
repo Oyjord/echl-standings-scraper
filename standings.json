@@ -14,14 +14,14 @@
     },
     {
       "team": "South Carolina Stingrays",
-      "gp": 33,
-      "w": 21,
+      "gp": 34,
+      "w": 22,
       "l": 11,
       "otl": 1,
       "sol": 0,
-      "pts": 43,
+      "pts": 45,
       "gf": 0,
-      "ga": 97
+      "ga": 98
     },
     {
       "team": "Atlanta Gladiators",
@@ -57,6 +57,17 @@
       "ga": 84
     },
     {
+      "team": "Orlando Solar Bears",
+      "gp": 34,
+      "w": 12,
+      "l": 17,
+      "otl": 4,
+      "sol": 1,
+      "pts": 29,
+      "gf": 0,
+      "ga": 86
+    },
+    {
       "team": "Jacksonville Icemen",
       "gp": 30,
       "w": 14,
@@ -64,17 +75,6 @@
       "otl": 1,
       "sol": 0,
       "pts": 29,
-      "gf": 0,
-      "ga": 85
-    },
-    {
-      "team": "Orlando Solar Bears",
-      "gp": 33,
-      "w": 12,
-      "l": 17,
-      "otl": 3,
-      "sol": 1,
-      "pts": 28,
       "gf": 0,
       "ga": 85
     }
