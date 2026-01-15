@@ -3,14 +3,14 @@
   "teams": [
     {
       "team": "Florida Everblades",
-      "gp": 32,
-      "w": 22,
+      "gp": 33,
+      "w": 23,
       "l": 6,
       "otl": 3,
       "sol": 1,
-      "pts": 48,
+      "pts": 50,
       "gf": 0,
-      "ga": 111
+      "ga": 112
     },
     {
       "team": "South Carolina Stingrays",
@@ -69,9 +69,9 @@
     },
     {
       "team": "Jacksonville Icemen",
-      "gp": 30,
+      "gp": 31,
       "w": 14,
-      "l": 15,
+      "l": 16,
       "otl": 1,
       "sol": 0,
       "pts": 29,
