@@ -25,12 +25,12 @@
     },
     {
       "team": "Atlanta Gladiators",
-      "gp": 31,
-      "w": 22,
+      "gp": 32,
+      "w": 23,
       "l": 9,
       "otl": 0,
       "sol": 0,
-      "pts": 44,
+      "pts": 46,
       "gf": 0,
       "ga": 98
     },
@@ -46,37 +46,37 @@
       "ga": 111
     },
     {
-      "team": "Greenville Swamp Rabbits",
-      "gp": 33,
+      "team": "Orlando Solar Bears",
+      "gp": 38,
       "w": 14,
-      "l": 15,
+      "l": 19,
+      "otl": 4,
+      "sol": 1,
+      "pts": 33,
+      "gf": 0,
+      "ga": 97
+    },
+    {
+      "team": "Jacksonville Icemen",
+      "gp": 34,
+      "w": 15,
+      "l": 17,
+      "otl": 2,
+      "sol": 0,
+      "pts": 32,
+      "gf": 0,
+      "ga": 94
+    },
+    {
+      "team": "Greenville Swamp Rabbits",
+      "gp": 34,
+      "w": 14,
+      "l": 16,
       "otl": 4,
       "sol": 0,
       "pts": 32,
       "gf": 0,
       "ga": 88
-    },
-    {
-      "team": "Orlando Solar Bears",
-      "gp": 37,
-      "w": 13,
-      "l": 19,
-      "otl": 4,
-      "sol": 1,
-      "pts": 31,
-      "gf": 0,
-      "ga": 96
-    },
-    {
-      "team": "Jacksonville Icemen",
-      "gp": 33,
-      "w": 15,
-      "l": 17,
-      "otl": 1,
-      "sol": 0,
-      "pts": 31,
-      "gf": 0,
-      "ga": 94
     }
   ]
 }
