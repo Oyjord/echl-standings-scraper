@@ -3,9 +3,9 @@
   "teams": [
     {
       "team": "Florida Everblades",
-      "gp": 38,
+      "gp": 39,
       "w": 25,
-      "l": 8,
+      "l": 9,
       "otl": 4,
       "sol": 1,
       "pts": 55,
@@ -14,14 +14,14 @@
     },
     {
       "team": "Atlanta Gladiators",
-      "gp": 35,
-      "w": 25,
+      "gp": 36,
+      "w": 26,
       "l": 9,
       "otl": 1,
       "sol": 0,
-      "pts": 51,
+      "pts": 53,
       "gf": 0,
-      "ga": 107
+      "ga": 108
     },
     {
       "team": "South Carolina Stingrays",
@@ -76,7 +76,7 @@
       "sol": 0,
       "pts": 34,
       "gf": 0,
-      "ga": 92
+      "ga": 94
     }
   ]
 }
