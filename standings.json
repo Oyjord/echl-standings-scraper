@@ -36,14 +36,25 @@
     },
     {
       "team": "Savannah Ghost Pirates",
-      "gp": 37,
+      "gp": 38,
       "w": 18,
-      "l": 16,
+      "l": 17,
       "otl": 2,
       "sol": 1,
       "pts": 39,
       "gf": 0,
       "ga": 117
+    },
+    {
+      "team": "Orlando Solar Bears",
+      "gp": 43,
+      "w": 17,
+      "l": 21,
+      "otl": 4,
+      "sol": 1,
+      "pts": 39,
+      "gf": 0,
+      "ga": 110
     },
     {
       "team": "Greenville Swamp Rabbits",
@@ -55,17 +66,6 @@
       "pts": 38,
       "gf": 0,
       "ga": 98
-    },
-    {
-      "team": "Orlando Solar Bears",
-      "gp": 42,
-      "w": 16,
-      "l": 21,
-      "otl": 4,
-      "sol": 1,
-      "pts": 37,
-      "gf": 0,
-      "ga": 109
     },
     {
       "team": "Jacksonville Icemen",
