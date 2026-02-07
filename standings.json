@@ -10,7 +10,7 @@
       "sol": 0,
       "pts": 59,
       "gf": 0,
-      "ga": 123
+      "ga": 126
     },
     {
       "team": "Florida Everblades",
@@ -21,7 +21,7 @@
       "sol": 1,
       "pts": 58,
       "gf": 0,
-      "ga": 139
+      "ga": 140
     },
     {
       "team": "South Carolina Stingrays",
@@ -43,7 +43,7 @@
       "sol": 1,
       "pts": 45,
       "gf": 0,
-      "ga": 133
+      "ga": 135
     },
     {
       "team": "Orlando Solar Bears",
@@ -54,7 +54,7 @@
       "sol": 1,
       "pts": 41,
       "gf": 0,
-      "ga": 116
+      "ga": 119
     },
     {
       "team": "Greenville Swamp Rabbits",
@@ -76,7 +76,7 @@
       "sol": 0,
       "pts": 36,
       "gf": 0,
-      "ga": 105
+      "ga": 108
     }
   ]
 }
