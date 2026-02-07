@@ -46,6 +46,17 @@
       "ga": 137
     },
     {
+      "team": "Greenville Swamp Rabbits",
+      "gp": 40,
+      "w": 19,
+      "l": 16,
+      "otl": 4,
+      "sol": 1,
+      "pts": 43,
+      "gf": 0,
+      "ga": 111
+    },
+    {
       "team": "Orlando Solar Bears",
       "gp": 45,
       "w": 18,
@@ -55,17 +66,6 @@
       "pts": 41,
       "gf": 0,
       "ga": 119
-    },
-    {
-      "team": "Greenville Swamp Rabbits",
-      "gp": 39,
-      "w": 18,
-      "l": 16,
-      "otl": 4,
-      "sol": 1,
-      "pts": 41,
-      "gf": 0,
-      "ga": 109
     },
     {
       "team": "Jacksonville Icemen",
