@@ -10,7 +10,7 @@
       "sol": 0,
       "pts": 63,
       "gf": 0,
-      "ga": 130
+      "ga": 131
     },
     {
       "team": "Florida Everblades",
@@ -21,7 +21,7 @@
       "sol": 1,
       "pts": 62,
       "gf": 0,
-      "ga": 147
+      "ga": 148
     },
     {
       "team": "South Carolina Stingrays",
@@ -32,7 +32,7 @@
       "sol": 0,
       "pts": 55,
       "gf": 0,
-      "ga": 127
+      "ga": 128
     },
     {
       "team": "Savannah Ghost Pirates",
@@ -54,7 +54,7 @@
       "sol": 1,
       "pts": 45,
       "gf": 0,
-      "ga": 126
+      "ga": 129
     },
     {
       "team": "Greenville Swamp Rabbits",
@@ -65,7 +65,7 @@
       "sol": 1,
       "pts": 43,
       "gf": 0,
-      "ga": 115
+      "ga": 117
     },
     {
       "team": "Jacksonville Icemen",
@@ -76,7 +76,7 @@
       "sol": 0,
       "pts": 39,
       "gf": 0,
-      "ga": 112
+      "ga": 114
     }
   ]
 }
