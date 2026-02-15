@@ -2,26 +2,26 @@
   "division": "South",
   "teams": [
     {
-      "team": "Atlanta Gladiators",
-      "gp": 43,
-      "w": 31,
+      "team": "Florida Everblades",
+      "gp": 47,
+      "w": 28,
       "l": 11,
+      "otl": 6,
+      "sol": 2,
+      "pts": 64,
+      "gf": 0,
+      "ga": 148
+    },
+    {
+      "team": "Atlanta Gladiators",
+      "gp": 44,
+      "w": 31,
+      "l": 12,
       "otl": 1,
       "sol": 0,
       "pts": 63,
       "gf": 0,
       "ga": 133
-    },
-    {
-      "team": "Florida Everblades",
-      "gp": 46,
-      "w": 28,
-      "l": 11,
-      "otl": 6,
-      "sol": 1,
-      "pts": 63,
-      "gf": 0,
-      "ga": 148
     },
     {
       "team": "South Carolina Stingrays",
@@ -47,9 +47,9 @@
     },
     {
       "team": "Orlando Solar Bears",
-      "gp": 48,
+      "gp": 49,
       "w": 20,
-      "l": 23,
+      "l": 24,
       "otl": 4,
       "sol": 1,
       "pts": 45,
