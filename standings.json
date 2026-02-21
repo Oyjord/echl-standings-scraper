@@ -10,7 +10,7 @@
       "sol": 1,
       "pts": 64,
       "gf": 0,
-      "ga": 136
+      "ga": 138
     },
     {
       "team": "Florida Everblades",
@@ -32,7 +32,7 @@
       "sol": 0,
       "pts": 63,
       "gf": 0,
-      "ga": 146
+      "ga": 148
     },
     {
       "team": "Savannah Ghost Pirates",
@@ -76,7 +76,7 @@
       "sol": 0,
       "pts": 42,
       "gf": 0,
-      "ga": 117
+      "ga": 119
     }
   ]
 }
