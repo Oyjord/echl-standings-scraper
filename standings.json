@@ -2,6 +2,17 @@
   "division": "South",
   "teams": [
     {
+      "team": "Florida Everblades",
+      "gp": 49,
+      "w": 30,
+      "l": 11,
+      "otl": 6,
+      "sol": 2,
+      "pts": 68,
+      "gf": 0,
+      "ga": 153
+    },
+    {
       "team": "Atlanta Gladiators",
       "gp": 47,
       "w": 32,
@@ -11,17 +22,6 @@
       "pts": 67,
       "gf": 0,
       "ga": 142
-    },
-    {
-      "team": "Florida Everblades",
-      "gp": 48,
-      "w": 29,
-      "l": 11,
-      "otl": 6,
-      "sol": 2,
-      "pts": 66,
-      "gf": 0,
-      "ga": 153
     },
     {
       "team": "South Carolina Stingrays",
@@ -47,12 +47,12 @@
     },
     {
       "team": "Greenville Swamp Rabbits",
-      "gp": 47,
-      "w": 20,
+      "gp": 48,
+      "w": 21,
       "l": 21,
       "otl": 5,
       "sol": 1,
-      "pts": 46,
+      "pts": 48,
       "gf": 0,
       "ga": 134
     },
@@ -69,9 +69,9 @@
     },
     {
       "team": "Jacksonville Icemen",
-      "gp": 48,
+      "gp": 49,
       "w": 19,
-      "l": 24,
+      "l": 25,
       "otl": 5,
       "sol": 0,
       "pts": 43,
