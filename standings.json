@@ -3,14 +3,14 @@
   "teams": [
     {
       "team": "Florida Everblades",
-      "gp": 53,
-      "w": 34,
+      "gp": 54,
+      "w": 35,
       "l": 11,
       "otl": 6,
       "sol": 2,
-      "pts": 76,
+      "pts": 78,
       "gf": 0,
-      "ga": 175
+      "ga": 176
     },
     {
       "team": "Atlanta Gladiators",
@@ -47,9 +47,9 @@
     },
     {
       "team": "Greenville Swamp Rabbits",
-      "gp": 51,
+      "gp": 52,
       "w": 22,
-      "l": 23,
+      "l": 24,
       "otl": 5,
       "sol": 1,
       "pts": 50,
