@@ -57,6 +57,17 @@
       "ga": 143
     },
     {
+      "team": "Jacksonville Icemen",
+      "gp": 54,
+      "w": 20,
+      "l": 26,
+      "otl": 7,
+      "sol": 1,
+      "pts": 48,
+      "gf": 0,
+      "ga": 139
+    },
+    {
       "team": "Orlando Solar Bears",
       "gp": 55,
       "w": 21,
@@ -66,17 +77,6 @@
       "pts": 47,
       "gf": 0,
       "ga": 139
-    },
-    {
-      "team": "Jacksonville Icemen",
-      "gp": 53,
-      "w": 19,
-      "l": 26,
-      "otl": 7,
-      "sol": 1,
-      "pts": 46,
-      "gf": 0,
-      "ga": 135
     }
   ]
 }
