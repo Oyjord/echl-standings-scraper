@@ -3,14 +3,14 @@
   "teams": [
     {
       "team": "Florida Everblades",
-      "gp": 55,
-      "w": 36,
+      "gp": 56,
+      "w": 37,
       "l": 11,
       "otl": 6,
       "sol": 2,
-      "pts": 80,
+      "pts": 82,
       "gf": 0,
-      "ga": 180
+      "ga": 182
     },
     {
       "team": "South Carolina Stingrays",
@@ -69,14 +69,14 @@
     },
     {
       "team": "Orlando Solar Bears",
-      "gp": 55,
+      "gp": 56,
       "w": 21,
-      "l": 29,
+      "l": 30,
       "otl": 4,
       "sol": 1,
       "pts": 47,
       "gf": 0,
-      "ga": 139
+      "ga": 140
     }
   ]
 }
