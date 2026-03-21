@@ -21,7 +21,7 @@
       "sol": 2,
       "pts": 79,
       "gf": 0,
-      "ga": 183
+      "ga": 187
     },
     {
       "team": "Atlanta Gladiators",
@@ -32,7 +32,7 @@
       "sol": 1,
       "pts": 77,
       "gf": 0,
-      "ga": 170
+      "ga": 171
     },
     {
       "team": "Savannah Ghost Pirates",
@@ -43,7 +43,7 @@
       "sol": 1,
       "pts": 60,
       "gf": 0,
-      "ga": 176
+      "ga": 179
     },
     {
       "team": "Jacksonville Icemen",
@@ -54,7 +54,7 @@
       "sol": 1,
       "pts": 54,
       "gf": 0,
-      "ga": 149
+      "ga": 153
     },
     {
       "team": "Orlando Solar Bears",
@@ -76,7 +76,7 @@
       "sol": 1,
       "pts": 53,
       "gf": 0,
-      "ga": 151
+      "ga": 154
     }
   ]
 }
