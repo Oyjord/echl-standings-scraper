@@ -25,14 +25,14 @@
     },
     {
       "team": "Atlanta Gladiators",
-      "gp": 61,
-      "w": 39,
+      "gp": 62,
+      "w": 40,
       "l": 19,
       "otl": 2,
       "sol": 1,
-      "pts": 81,
+      "pts": 83,
       "gf": 0,
-      "ga": 178
+      "ga": 180
     },
     {
       "team": "Savannah Ghost Pirates",
@@ -69,14 +69,14 @@
     },
     {
       "team": "Orlando Solar Bears",
-      "gp": 62,
+      "gp": 63,
       "w": 24,
-      "l": 33,
+      "l": 34,
       "otl": 4,
       "sol": 1,
       "pts": 53,
       "gf": 0,
-      "ga": 157
+      "ga": 158
     }
   ]
 }
