@@ -13,6 +13,17 @@
       "ga": 219
     },
     {
+      "team": "South Carolina Stingrays",
+      "gp": 64,
+      "w": 41,
+      "l": 20,
+      "otl": 1,
+      "sol": 2,
+      "pts": 85,
+      "gf": 0,
+      "ga": 197
+    },
+    {
       "team": "Atlanta Gladiators",
       "gp": 63,
       "w": 41,
@@ -22,17 +33,6 @@
       "pts": 85,
       "gf": 0,
       "ga": 183
-    },
-    {
-      "team": "South Carolina Stingrays",
-      "gp": 63,
-      "w": 40,
-      "l": 20,
-      "otl": 1,
-      "sol": 2,
-      "pts": 83,
-      "gf": 0,
-      "ga": 195
     },
     {
       "team": "Savannah Ghost Pirates",
