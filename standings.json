@@ -3,20 +3,20 @@
   "teams": [
     {
       "team": "Florida Everblades",
-      "gp": 65,
-      "w": 43,
+      "gp": 66,
+      "w": 44,
       "l": 13,
       "otl": 6,
       "sol": 3,
-      "pts": 95,
+      "pts": 97,
       "gf": 0,
-      "ga": 220
+      "ga": 223
     },
     {
       "team": "Atlanta Gladiators",
-      "gp": 64,
+      "gp": 65,
       "w": 42,
-      "l": 19,
+      "l": 20,
       "otl": 2,
       "sol": 1,
       "pts": 87,
@@ -25,9 +25,9 @@
     },
     {
       "team": "South Carolina Stingrays",
-      "gp": 65,
+      "gp": 66,
       "w": 41,
-      "l": 20,
+      "l": 21,
       "otl": 1,
       "sol": 3,
       "pts": 86,
@@ -47,36 +47,36 @@
     },
     {
       "team": "Jacksonville Icemen",
-      "gp": 64,
+      "gp": 65,
       "w": 26,
       "l": 30,
-      "otl": 7,
+      "otl": 8,
       "sol": 1,
-      "pts": 60,
+      "pts": 61,
       "gf": 0,
-      "ga": 162
+      "ga": 164
     },
     {
       "team": "Greenville Swamp Rabbits",
-      "gp": 62,
-      "w": 24,
+      "gp": 63,
+      "w": 25,
       "l": 30,
       "otl": 7,
       "sol": 1,
-      "pts": 56,
+      "pts": 58,
       "gf": 0,
-      "ga": 161
+      "ga": 164
     },
     {
       "team": "Orlando Solar Bears",
-      "gp": 65,
-      "w": 25,
+      "gp": 66,
+      "w": 26,
       "l": 35,
       "otl": 4,
       "sol": 1,
-      "pts": 55,
+      "pts": 57,
       "gf": 0,
-      "ga": 164
+      "ga": 167
     }
   ]
 }
