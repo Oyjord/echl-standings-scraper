@@ -25,25 +25,25 @@
     },
     {
       "team": "Atlanta Gladiators",
-      "gp": 67,
+      "gp": 68,
       "w": 42,
       "l": 22,
-      "otl": 2,
+      "otl": 3,
       "sol": 1,
-      "pts": 87,
+      "pts": 88,
       "gf": 0,
-      "ga": 192
+      "ga": 194
     },
     {
       "team": "Savannah Ghost Pirates",
-      "gp": 67,
-      "w": 32,
+      "gp": 68,
+      "w": 33,
       "l": 31,
       "otl": 3,
       "sol": 1,
-      "pts": 68,
+      "pts": 70,
       "gf": 0,
-      "ga": 195
+      "ga": 198
     },
     {
       "team": "Jacksonville Icemen",
