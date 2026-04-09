@@ -20,41 +20,48 @@ end
 
 def parse_standings(html)
   doc = Nokogiri::HTML(html)
-  rows = doc.css('table tbody tr')
+  rows = doc.css("table tbody tr")
 
   teams = []
 
   rows.each do |row|
-    cols = row.css('td').map { |td| td.text.strip }
+    cols = row.css("td")
     next unless cols.size >= 10
 
-    raw = cols[1].gsub(/\s+/, " ").strip
+    # -------------------------
+    # 1. Extract prefix from column 0
+    # -------------------------
+    prefix_span = cols[0].css("span").find { |s| s.text.strip =~ /^[xyz]+$/i }
+    prefix = prefix_span ? prefix_span.text.strip.downcase : ""
 
-    # Extract prefix
-    prefix = raw[/^[xyz]/i] || ""
+    # -------------------------
+    # 2. Extract team name from column 1
+    # -------------------------
+    team_cell = cols[1]
+    raw_team = team_cell.text.gsub(/\s+/, " ").strip
 
-    # Remove prefix + dash/colon
-    base = raw.sub(/^[xyz]\s*[-:]?\s*/i, "").strip
+    # Normalize: remove abbreviations like "FLA"
+    base_name = SOUTH_DIVISION_TEAMS.find { |t| raw_team.include?(t) }
+    next unless base_name
 
-    # Substring match instead of exact match
-    next unless SOUTH_DIVISION_TEAMS.any? { |t| base.include?(t) }
+    # -------------------------
+    # 3. Build final team string
+    # -------------------------
+    final_team = prefix.empty? ? base_name : "#{prefix} #{base_name}"
 
-    # Find the canonical team name
-    canonical = SOUTH_DIVISION_TEAMS.find { |t| base.include?(t) }
-
-    # Final team string
-    final_team = prefix.empty? ? canonical : "#{prefix} #{canonical}"
-
+    # -------------------------
+    # 4. Extract stats
+    # -------------------------
     teams << {
       team: final_team,
-      gp:   cols[2].to_i,
-      w:    cols[3].to_i,
-      l:    cols[4].to_i,
-      otl:  cols[5].to_i,
-      sol:  cols[6].to_i,
-      pts:  cols[7].to_i,
-      gf:   cols[8].to_i,
-      ga:   cols[9].to_i
+      gp:   cols[2].text.to_i,
+      w:    cols[3].text.to_i,
+      l:    cols[4].text.to_i,
+      otl:  cols[5].text.to_i,
+      sol:  cols[6].text.to_i,
+      pts:  cols[7].text.to_i,
+      gf:   cols[8].text.to_i,
+      ga:   cols[9].text.to_i
     }
   end
 
