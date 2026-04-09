@@ -15,46 +15,30 @@ SOUTH_DIVISION_TEAMS = [
 ]
 
 def fetch_html
-  puts "🌐 Fetching HTML from #{URL}"
   URI.open(URL, "User-Agent" => "Mozilla/5.0").read
-rescue => e
-  puts "❌ Failed to fetch HTML: #{e}"
-  ""
 end
 
 def parse_standings(html)
   doc = Nokogiri::HTML(html)
   rows = doc.css('table tbody tr')
-  puts "🔍 Found #{rows.size} table rows"
 
   teams = []
 
-  rows.each_with_index do |row, index|
+  rows.each do |row|
     cols = row.css('td').map { |td| td.text.strip }
-    puts "🔎 Row #{index + 1}: #{cols.inspect}"
-
     next unless cols.size >= 10
 
-    # Original behavior: use first line of team cell
-    first_line = cols[1].split("\n").first.strip
-    normalized  = first_line.gsub(/\s+/, " ")
+    raw = cols[1].gsub(/\s+/, " ").strip
 
-    # Extract prefix (x, y, z) if present
-    prefix = normalized[/^[xyz]/i] || ""
+    # Extract prefix
+    prefix = raw[/^[xyz]/i] || ""
 
-    # Base team name: strip leading prefix + optional dash/colon
-    base_name = normalized.sub(/^[xyz]\s*[-:]?\s*/i, "").strip
+    # Extract base name
+    base = raw.sub(/^[xyz]\s*[-:]?\s*/i, "").strip
 
-    # Filter by base name (no prefix)
-    unless SOUTH_DIVISION_TEAMS.include?(base_name)
-      puts "🚫 Skipped non-South team: #{base_name} (from #{normalized})"
-      next
-    end
+    next unless SOUTH_DIVISION_TEAMS.include?(base)
 
-    # Final team string for JSON (prefix + base name)
-    final_team = prefix.empty? ? base_name : "#{prefix} #{base_name}"
-
-    puts "✅ Matched South Division team: #{final_team}"
+    final_team = prefix.empty? ? base : "#{prefix} #{base}"
 
     teams << {
       team: final_team,
@@ -73,10 +57,9 @@ def parse_standings(html)
 end
 
 def write_json(teams)
-  File.write('standings.json', JSON.pretty_generate({ division: "South", teams: teams }))
-  puts "📁 Wrote #{teams.size} teams to standings.json"
+  File.write("standings.json", JSON.pretty_generate({ division: "South", teams: teams }))
 end
 
-html  = fetch_html
+html = fetch_html
 teams = parse_standings(html)
 write_json(teams)
