@@ -33,12 +33,17 @@ def parse_standings(html)
     # Extract prefix
     prefix = raw[/^[xyz]/i] || ""
 
-    # Extract base name
+    # Remove prefix + dash/colon
     base = raw.sub(/^[xyz]\s*[-:]?\s*/i, "").strip
 
-    next unless SOUTH_DIVISION_TEAMS.include?(base)
+    # Substring match instead of exact match
+    next unless SOUTH_DIVISION_TEAMS.any? { |t| base.include?(t) }
 
-    final_team = prefix.empty? ? base : "#{prefix} #{base}"
+    # Find the canonical team name
+    canonical = SOUTH_DIVISION_TEAMS.find { |t| base.include?(t) }
+
+    # Final team string
+    final_team = prefix.empty? ? canonical : "#{prefix} #{canonical}"
 
     teams << {
       team: final_team,
