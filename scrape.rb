@@ -16,7 +16,7 @@ SOUTH_DIVISION_TEAMS = [
 
 def fetch_html
   puts "🌐 Fetching HTML from #{URL}"
-  URI.open(URL).read
+  URI.open(URL, "User-Agent" => "Mozilla/5.0").read
 rescue => e
   puts "❌ Failed to fetch HTML: #{e}"
   ""
@@ -30,28 +30,42 @@ def parse_standings(html)
   teams = []
 
   rows.each_with_index do |row, index|
-    cols = row.css('td').map(&:text).map(&:strip)
+    cols = row.css('td').map { |td| td.text.strip }
     puts "🔎 Row #{index + 1}: #{cols.inspect}"
 
     next unless cols.size >= 10
 
-    team_name = cols[1].split("\n").first.strip
-    if SOUTH_DIVISION_TEAMS.include?(team_name)
-      puts "✅ Matched South Division team: #{team_name}"
-      teams << {
-        team: team_name,
-        gp: cols[2].to_i,
-        w: cols[3].to_i,
-        l: cols[4].to_i,
-        otl: cols[5].to_i,
-        sol: cols[6].to_i,
-        pts: cols[7].to_i,
-        gf: cols[8].to_i,
-        ga: cols[9].to_i
-      }
-    else
-      puts "🚫 Skipped non-South team: #{team_name}"
-    end
+    # Extract raw team cell text (may include prefix)
+    raw_team = cols[1]
+
+    # Normalize: remove extra whitespace
+    raw_team = raw_team.gsub(/\s+/, " ").strip
+
+    # Extract prefix (x, y, z)
+    prefix = raw_team[/^[xyz]/i] || ""
+
+    # Extract clean team name (remove prefix and dash)
+    team_name = raw_team.gsub(/^[xyz]\s*-\s*/i, "").strip
+
+    # Only keep South Division teams
+    next unless SOUTH_DIVISION_TEAMS.include?(team_name)
+
+    # Build final team string (prefix + name)
+    final_team = prefix.empty? ? team_name : "#{prefix} #{team_name}"
+
+    puts "✅ Matched South Division team: #{final_team}"
+
+    teams << {
+      team: final_team,
+      gp: cols[2].to_i,
+      w:  cols[3].to_i,
+      l:  cols[4].to_i,
+      otl: cols[5].to_i,
+      sol: cols[6].to_i,
+      pts: cols[7].to_i,
+      gf: cols[8].to_i,
+      ga: cols[9].to_i
+    }
   end
 
   teams
