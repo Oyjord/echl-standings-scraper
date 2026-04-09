@@ -35,36 +35,37 @@ def parse_standings(html)
 
     next unless cols.size >= 10
 
-    # Extract raw team cell text (may include prefix)
-    raw_team = cols[1]
+    # Original behavior: use first line of team cell
+    first_line = cols[1].split("\n").first.strip
+    normalized  = first_line.gsub(/\s+/, " ")
 
-    # Normalize: remove extra whitespace
-    raw_team = raw_team.gsub(/\s+/, " ").strip
+    # Extract prefix (x, y, z) if present
+    prefix = normalized[/^[xyz]/i] || ""
 
-    # Extract prefix (x, y, z)
-    prefix = raw_team[/^[xyz]/i] || ""
+    # Base team name: strip leading prefix + optional dash/colon
+    base_name = normalized.sub(/^[xyz]\s*[-:]?\s*/i, "").strip
 
-    # Extract clean team name (remove prefix and dash)
-    team_name = raw_team.gsub(/^[xyz]\s*-\s*/i, "").strip
+    # Filter by base name (no prefix)
+    unless SOUTH_DIVISION_TEAMS.include?(base_name)
+      puts "🚫 Skipped non-South team: #{base_name} (from #{normalized})"
+      next
+    end
 
-    # Only keep South Division teams
-    next unless SOUTH_DIVISION_TEAMS.include?(team_name)
-
-    # Build final team string (prefix + name)
-    final_team = prefix.empty? ? team_name : "#{prefix} #{team_name}"
+    # Final team string for JSON (prefix + base name)
+    final_team = prefix.empty? ? base_name : "#{prefix} #{base_name}"
 
     puts "✅ Matched South Division team: #{final_team}"
 
     teams << {
       team: final_team,
-      gp: cols[2].to_i,
-      w:  cols[3].to_i,
-      l:  cols[4].to_i,
-      otl: cols[5].to_i,
-      sol: cols[6].to_i,
-      pts: cols[7].to_i,
-      gf: cols[8].to_i,
-      ga: cols[9].to_i
+      gp:   cols[2].to_i,
+      w:    cols[3].to_i,
+      l:    cols[4].to_i,
+      otl:  cols[5].to_i,
+      sol:  cols[6].to_i,
+      pts:  cols[7].to_i,
+      gf:   cols[8].to_i,
+      ga:   cols[9].to_i
     }
   end
 
@@ -76,6 +77,6 @@ def write_json(teams)
   puts "📁 Wrote #{teams.size} teams to standings.json"
 end
 
-html = fetch_html
+html  = fetch_html
 teams = parse_standings(html)
 write_json(teams)
