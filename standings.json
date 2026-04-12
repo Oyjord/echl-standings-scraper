@@ -3,20 +3,31 @@
   "teams": [
     {
       "team": "xy Florida Everblades",
-      "gp": 69,
-      "w": 46,
+      "gp": 70,
+      "w": 47,
       "l": 13,
       "otl": 7,
       "sol": 3,
-      "pts": 102,
+      "pts": 104,
       "gf": 0,
-      "ga": 233
+      "ga": 238
+    },
+    {
+      "team": "x Atlanta Gladiators",
+      "gp": 70,
+      "w": 43,
+      "l": 22,
+      "otl": 4,
+      "sol": 1,
+      "pts": 91,
+      "gf": 0,
+      "ga": 202
     },
     {
       "team": "x South Carolina Stingrays",
-      "gp": 69,
+      "gp": 70,
       "w": 43,
-      "l": 22,
+      "l": 23,
       "otl": 1,
       "sol": 3,
       "pts": 90,
@@ -24,21 +35,10 @@
       "ga": 211
     },
     {
-      "team": "x Atlanta Gladiators",
-      "gp": 69,
-      "w": 42,
-      "l": 22,
-      "otl": 4,
-      "sol": 1,
-      "pts": 89,
-      "gf": 0,
-      "ga": 197
-    },
-    {
-      "team": "Savannah Ghost Pirates",
-      "gp": 69,
+      "team": "x Savannah Ghost Pirates",
+      "gp": 70,
       "w": 34,
-      "l": 31,
+      "l": 32,
       "otl": 3,
       "sol": 1,
       "pts": 72,
@@ -47,36 +47,36 @@
     },
     {
       "team": "Jacksonville Icemen",
-      "gp": 67,
+      "gp": 68,
       "w": 27,
       "l": 31,
       "otl": 8,
-      "sol": 1,
-      "pts": 63,
+      "sol": 2,
+      "pts": 64,
       "gf": 0,
-      "ga": 167
-    },
-    {
-      "team": "Greenville Swamp Rabbits",
-      "gp": 67,
-      "w": 26,
-      "l": 33,
-      "otl": 7,
-      "sol": 1,
-      "pts": 60,
-      "gf": 0,
-      "ga": 178
+      "ga": 171
     },
     {
       "team": "Orlando Solar Bears",
-      "gp": 68,
-      "w": 27,
+      "gp": 69,
+      "w": 28,
       "l": 36,
       "otl": 4,
       "sol": 1,
-      "pts": 59,
+      "pts": 61,
       "gf": 0,
-      "ga": 172
+      "ga": 174
+    },
+    {
+      "team": "Greenville Swamp Rabbits",
+      "gp": 68,
+      "w": 26,
+      "l": 33,
+      "otl": 7,
+      "sol": 2,
+      "pts": 61,
+      "gf": 0,
+      "ga": 180
     }
   ]
 }
