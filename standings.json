@@ -2,81 +2,81 @@
   "division": "South",
   "teams": [
     {
-      "team": "xy Florida Everblades",
-      "gp": 72,
-      "w": 49,
-      "l": 13,
-      "otl": 7,
-      "sol": 3,
-      "pts": 108,
+      "team": "Savannah Ghost Pirates",
+      "gp": 0,
+      "w": 0,
+      "l": 0,
+      "otl": 0,
+      "sol": 0,
+      "pts": 0,
       "gf": 0,
-      "ga": 245
-    },
-    {
-      "team": "x South Carolina Stingrays",
-      "gp": 72,
-      "w": 45,
-      "l": 23,
-      "otl": 1,
-      "sol": 3,
-      "pts": 94,
-      "gf": 0,
-      "ga": 223
-    },
-    {
-      "team": "x Atlanta Gladiators",
-      "gp": 72,
-      "w": 44,
-      "l": 23,
-      "otl": 4,
-      "sol": 1,
-      "pts": 93,
-      "gf": 0,
-      "ga": 209
-    },
-    {
-      "team": "x Savannah Ghost Pirates",
-      "gp": 72,
-      "w": 35,
-      "l": 33,
-      "otl": 3,
-      "sol": 1,
-      "pts": 74,
-      "gf": 0,
-      "ga": 209
+      "ga": 0
     },
     {
       "team": "Jacksonville Icemen",
-      "gp": 72,
-      "w": 29,
-      "l": 32,
-      "otl": 8,
-      "sol": 3,
-      "pts": 69,
+      "gp": 0,
+      "w": 0,
+      "l": 0,
+      "otl": 0,
+      "sol": 0,
+      "pts": 0,
       "gf": 0,
-      "ga": 190
-    },
-    {
-      "team": "Greenville Swamp Rabbits",
-      "gp": 72,
-      "w": 27,
-      "l": 35,
-      "otl": 7,
-      "sol": 3,
-      "pts": 64,
-      "gf": 0,
-      "ga": 191
+      "ga": 0
     },
     {
       "team": "Orlando Solar Bears",
-      "gp": 72,
-      "w": 29,
-      "l": 38,
-      "otl": 4,
-      "sol": 1,
-      "pts": 63,
+      "gp": 0,
+      "w": 0,
+      "l": 0,
+      "otl": 0,
+      "sol": 0,
+      "pts": 0,
       "gf": 0,
-      "ga": 186
+      "ga": 0
+    },
+    {
+      "team": "Greenville Swamp Rabbits",
+      "gp": 0,
+      "w": 0,
+      "l": 0,
+      "otl": 0,
+      "sol": 0,
+      "pts": 0,
+      "gf": 0,
+      "ga": 0
+    },
+    {
+      "team": "South Carolina Stingrays",
+      "gp": 0,
+      "w": 0,
+      "l": 0,
+      "otl": 0,
+      "sol": 0,
+      "pts": 0,
+      "gf": 0,
+      "ga": 0
+    },
+    {
+      "team": "Atlanta Gladiators",
+      "gp": 0,
+      "w": 0,
+      "l": 0,
+      "otl": 0,
+      "sol": 0,
+      "pts": 0,
+      "gf": 0,
+      "ga": 0
+    },
+    {
+      "team": "Florida Everblades",
+      "gp": 0,
+      "w": 0,
+      "l": 0,
+      "otl": 0,
+      "sol": 0,
+      "pts": 0,
+      "gf": 0,
+      "ga": 0
     }
   ]
 }
