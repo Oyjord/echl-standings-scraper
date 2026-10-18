@@ -32,18 +32,18 @@
       "sol": 0,
       "pts": 2,
       "gf": 1,
-      "ga": 3
+      "ga": 6
     },
     {
       "team": "Atlanta Gladiators",
-      "gp": 2,
+      "gp": 3,
       "w": 1,
-      "l": 1,
+      "l": 2,
       "otl": 0,
       "sol": 0,
       "pts": 2,
       "gf": 0,
-      "ga": 4
+      "ga": 5
     },
     {
       "team": "Savannah Ghost Pirates",
@@ -76,7 +76,7 @@
       "sol": 0,
       "pts": 0,
       "gf": 0,
-      "ga": 1
+      "ga": 2
     }
   ]
 }
