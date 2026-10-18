@@ -1,4 +1,4 @@
-.# .github/workflows/scrape.yml
+# .github/workflows/scrape.yml
 name: Scrape Swamp Rabbits Standings
 
 on:
